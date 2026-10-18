@@ -24,9 +24,9 @@ The variables used are as follows:
 - Growth is compared over 1953 to 2019 due to China's growth first being noted in 1953.
 
 ## How to replicate
-1 Install R and then RStudio
-2 Install the packages using: `install.packages(c("tidyverse", "zoo", "pwt10"))`
-3 Open the project using RStudio to ensure the working directory uses the repo folder
-4 Lastly, run the scripts in order 01 to 04. 
+1. Install R and then RStudio
+2. Install the packages using: `install.packages(c("tidyverse", "zoo", "pwt10"))`
+3. Open the project using RStudio to ensure the working directory uses the repo folder
+4. Lastly, run the scripts in order 01 to 04. 
 - This allows 01 to create 'clean_three_countries.csv', which scripts 02 and 03 both use. 
 - Script 04 loads a fresh PWT data directly.
