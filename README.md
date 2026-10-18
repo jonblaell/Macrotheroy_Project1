@@ -4,10 +4,10 @@ Project 1, for Macroeconomic Theory. Author: Jonathan B. Elliott
 Project 1 compares the GDP per capita growth rates for Japan, China, and India. Then, examines the change over time of the growth for Japan. Lastly, the project examines the determinants of growth for OECD countries.
 
 ## Project Structure
-- `scripts/01_download_clean.R`: loads the data, handles missing values, builds the variables
-- `scripts/02_growth_compare.R`: Part 2, growth rates, summary tables and plots for Japan, China, and India
-- `scripts/03_japan_periods.R`: Part 3, Japan's growth by period
-- `scripts/04_oecd_determinants.R`: Part 4, OECD correlations, scatterplots and regression
+- `01_download_clean.R`: loads the data, handles missing values, builds the variables
+- `02_growth_compare.R`: Part 2, growth rates, summary tables and plots for Japan, China, and India
+- `03_japan_periods.R`: Part 3, Japan's growth by period
+- `04_oecd_determinants.R`: Part 4, OECD correlations, scatterplots and regression
 
 ## Data Source
 This project gathers its data from the Penn World Table 10.0 (Feenstra, Inklaar and Timmer, 2015). It does this by using the 'pwt10' R package.
